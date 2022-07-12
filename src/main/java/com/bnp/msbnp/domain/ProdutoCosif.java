@@ -18,18 +18,17 @@ public class ProdutoCosif implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "COD_PRODUTO")
-    @OneToOne
-    private Produto codProduto;
+    @Column(name = "COL_COD_PRODUTO")
+    private String codiProduto;
 
     @Column(name = "COD_COSIF")
-    private String codCosif;
+    private String codiCosif;
 
     @Column(name = "COD_CLASSIFICACAO")
-    private long codigoClassificacao;
+    private String codigoDaClassificacao;
 
-    @OneToOne
-    private Produto staStatus;
+    @Column(name = "STA_STATUS")
+    private String stalStatus;
 
 
 }

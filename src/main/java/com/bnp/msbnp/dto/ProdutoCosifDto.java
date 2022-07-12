@@ -1,18 +1,17 @@
 package com.bnp.msbnp.dto;
 
-import com.bnp.msbnp.domain.Produto;
 import lombok.Data;
 
 @Data
 public class ProdutoCosifDto {
 
 
-    private Produto codProduto;
+    private String codiProduto;
 
-    private String codCosif;
+    private String codiCosif;
 
-    private long codigoClassificacao;
+    private String codigoDaClassificacao;
 
-    private Produto staStatus;
+    private String stalStatus;
 
 }
