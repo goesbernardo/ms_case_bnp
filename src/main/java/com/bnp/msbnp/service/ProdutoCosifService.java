@@ -2,7 +2,6 @@ package com.bnp.msbnp.service;
 
 import com.bnp.msbnp.domain.ProdutoCosif;
 import com.bnp.msbnp.dto.ProdutoCosifDto;
-import com.bnp.msbnp.dto.ProdutoDto;
 import com.bnp.msbnp.mapper.ProdutoCosifMapper;
 import com.bnp.msbnp.repository.ProdutoCosifRepository;
 import org.springframework.beans.factory.annotation.Autowired;
